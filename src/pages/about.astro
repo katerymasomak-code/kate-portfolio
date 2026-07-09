@@ -1,0 +1,61 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { site, social } from "../config";
+
+// ── Edit everything below to tell your own story. ───────────────────────────
+// The little "fact" cards are just example fields — rename them, add more, or
+// remove the whole block if you prefer plain prose.
+const facts = [
+    { label: "Працюю", line: "Архітектором", muted: "Рівне, Україна" },
+    { label: "Освіта", line: "Бакалавр, архітектура", muted: "Національний Університет Водного Господарства" },
+    { label: "Досвід", line: "1 рік", muted: "" },
+];
+---
+
+<Layout
+    title="Про мене"
+    description={`Про ${site.name} — архітектор.`}
+>
+    <article class="page prose">
+        <h1 class="page__title">Про мене</h1>
+
+        <p class="lede">
+            Я {site.name} — архітектор, що розробив візуалізації та проекти на цьому сайті.
+        </p>
+
+        <p>
+            
+        </p>
+
+        <p>
+            
+        </p>
+
+        <p>
+            Список моїх проектів можна знайти <a href="/blog/projects">тут</a>.
+        </p>
+
+        <div class="facts">
+            {
+                facts.map((f) => (
+                    <section class="fact">
+                        <h2 class="fact__label">{f.label}</h2>
+                        <p class="fact__line">{f.line}</p>
+                        <p class="fact__muted">{f.muted}</p>
+                    </section>
+                ))
+            }
+        </div>
+
+        <p>
+            <a
+                class="text-link"
+                href={social.threads}
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Більше про мене тут →
+            </a>
+        </p>
+    </article>
+</Layout>
