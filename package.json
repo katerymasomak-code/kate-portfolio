@@ -8,11 +8,7 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro",
-    "setup": "npm run gen:brand && npm run gen:icons && npm run gen:placeholders",
-    "gen:brand": "node scripts/generate-brand.mjs",
-    "gen:icons": "node scripts/generate-icons.mjs",
-    "gen:placeholders": "node scripts/generate-placeholders.mjs"
+    "astro": "astro"
   },
   "dependencies": {
     "@astrojs/mdx": "^6.0.2",
