@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build && node scripts/strip-unreferenced-assets.mjs",
     "preview": "astro preview",
     "astro": "astro",
     "setup": "npm run gen:brand && npm run gen:icons && npm run gen:placeholders",
