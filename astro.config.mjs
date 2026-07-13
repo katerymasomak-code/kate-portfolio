@@ -24,7 +24,10 @@ export default defineConfig({
   // Your production domain — used for canonical URLs, Open Graph tags, the
   // sitemap, robots.txt, llms.txt, and the JSON-LD. CHANGE THIS to your own
   // domain; everything URL-bound is derived from it.
-  site: 'https://example.com',
+
+  site: 'https://katerymasomak-code.github.io/',
+
+  base: '/kate-portfolio',
 
   // Markdown for the blogs. Prism highlights code with CSS *classes* (themed in
   // global.css) rather than inline styles, so syntax colors work under the strict
