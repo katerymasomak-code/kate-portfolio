@@ -10,7 +10,8 @@ const norm = (p: string) => p.replace(/\/+$/, '') || '/';
 const current = norm(Astro.url.pathname);
 const isActive = (href: string) => {
   const h = norm(href);
-  return h === current || (h !== '/' && current.startsWith(h + '/'));
+  const rootPath = norm(import.meta.env.BASE_URL);
+  return h === current || (h !== rootPath && current.startsWith(h + '/'));
 };
 ---
 
