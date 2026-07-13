@@ -14,10 +14,10 @@
     "gen:placeholders": "node scripts/generate-placeholders.mjs"
   },
   "dependencies": {
-    "@astrojs/mdx": "^6.0.2",
+    "@astrojs/mdx": "^7.0.2",
     "@astrojs/sitemap": "^3.7.3",
     "@fontsource/cormorant-garamond": "^5.0.0",
     "@fontsource/eb-garamond": "^5.0.0",
-    "astro": "^6.4.3"
+    "astro": "^7.0.7"
   }
 }
