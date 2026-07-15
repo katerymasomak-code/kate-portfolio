@@ -22,7 +22,7 @@ export const site = {
 
 // Left-hand navigation. "Digital" is the home page and shows by default.
 export const nav: NavItem[] = [
-  { label: 'Візуалізації', href: '/kate-portfolio' },
+  { label: 'Галерея', href: '/kate-portfolio' },
   { label: 'Проекти', href: '/kate-portfolio/blog/projects' },
   { label: 'Про мене', href: '/kate-portfolio/about' },
   { label: 'Контакти', href: '/kate-portfolio/contact' },
