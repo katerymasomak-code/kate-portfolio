@@ -118,10 +118,10 @@ export const social = {
 src/
 ├── assets/
 │   ├── visuals/         # ← Main page architectural renders & visualizations
-│   └── blog/            # ← Embedded case-study graphics (<Photo> / <Gallery>)
+│   └── projects/        # ← Embedded case-study graphics (<Photo> / <Gallery>)
 ├── components/          # Navigation, PhotoGrid, Lightbox, UI Elements
 ├── content/             
-│   └── projects/        # ← Case studies & technical blog (Markdown / MDX)
+│   └── projects/        # ← Projects (Markdown / MDX)
 ├── content.config.ts    # ← Strict validation schema for project entries
 ├── data/
 │   └── galleries.ts     # ← Context metadata & drawing descriptions

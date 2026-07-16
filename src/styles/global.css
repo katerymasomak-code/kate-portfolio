@@ -58,7 +58,7 @@
   --muted: #6f6f6a;
   --line: #e7e5e0;
   --brand: #156315;
-  --brand-text: 1.05rem;
+  --brand-text: 1.3rem;
 
   --sidebar-w: 300px;
   --pad: clamp(1.25rem, 3vw, 2.75rem);
@@ -1193,7 +1193,6 @@ a {
      beside (not under) the centered tree. */
   .brand {
     display: contents;
-    --brand-text: 0.8rem;
   }
 
   .brand__names {
@@ -1235,7 +1234,7 @@ a {
     cursor: pointer;
     color: var(--fg);
     font-family: var(--serif-display);
-    font-size: 1.3rem;
+    font-size: var(--brand-text);
     letter-spacing: 0.02em;
     position: relative;
     z-index: 31;

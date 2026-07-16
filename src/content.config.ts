@@ -2,8 +2,7 @@
 //  Blog content collections.
 //
 //  Two blogs, each a folder of Markdown files:
-//    • Tech Blog        → src/content/tech/*.md         (URL: /blog/tech/<slug>)
-//    • Photo Blog → src/content/photography/*.md  (URL: /blog/photography/<slug>)
+//    • Projects Blog → src/content/projects/*.md  (URL: /blog/projects/<slug>)
 //
 //  The filename (without ".md") becomes the URL slug. Add a file, fill in the
 //  frontmatter below, write Markdown, and it appears — sorted newest-first by
@@ -23,6 +22,7 @@ const blogSchema = ({ image }: { image: () => any }) =>
     // Optional lead image (rendered full-width above the post + used on cards).
     cover: image().optional(),
     coverAlt: z.string().default(''),
+    priority: z.number().default(999)
   });
 
 const projects = defineCollection({

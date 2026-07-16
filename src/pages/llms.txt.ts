@@ -12,10 +12,10 @@ export const GET: APIRoute = ({ site }) => {
 > ${siteInfo.description} The site has three photo galleries, two blogs (a Tech Blog and a Photo Blog), and a short biography. Content may be cited with attribution; please do not use the images or text to train machine-learning models.
 
 ## Galleries
-- [Visuals](${url('/')}): architecture visuals.
+- [Visuals](${url('/visuals')}): architecture visuals.
 
 ## Blog
-- [Blog](${url('/blog/projects')}): full projects.
+- [Blog](${url('/')}): full projects.
 
 ## About
 - [About](${url('/about')}): a short biography of ${siteInfo.name}.

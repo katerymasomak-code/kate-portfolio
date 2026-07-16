@@ -20,10 +20,9 @@ export const site = {
     'Архітектурне портфоліо та блог.',
 };
 
-// Left-hand navigation. "Digital" is the home page and shows by default.
 export const nav: NavItem[] = [
-  { label: 'Галерея', href: '/kate-portfolio' },
-  { label: 'Проекти', href: '/kate-portfolio/blog/projects' },
+  { label: 'Проекти', href: '/kate-portfolio' },
+  { label: 'Галерея', href: '/kate-portfolio/visuals' },
   { label: 'Про мене', href: '/kate-portfolio/about' },
   { label: 'Контакти', href: '/kate-portfolio/contact' },
 ];
