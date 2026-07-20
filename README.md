@@ -107,8 +107,6 @@ export const social = {
 | `npm run dev` | Instantiates local Vite/Astro runtime environment. |
 | `npm run build` | Builds static assets into `dist/` and strips raw originals. |
 | `npm run preview` | Spins up a local web server to audit production-ready assets. |
-| `npm run gen:brand` | Processes brand graphic vector maps. |
-| `npm run gen:icons` | Recompiles multi-resolution favicons and system identity seals. |
 
 ---
 
